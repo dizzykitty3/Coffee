@@ -7,10 +7,10 @@ android {
     buildToolsVersion '35.0.0'
 
     defaultConfig {
-        applicationId "com.github.muellerma.coffee"
+        applicationId "com.github.muellerma.coffee.fork"
         minSdkVersion 21
         targetSdkVersion 35
-        versionCode 44
+        versionCode 20241203
         versionName "2.24"
     }
     namespace = "com.github.muellerma.coffee"

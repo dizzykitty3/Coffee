@@ -4,6 +4,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
         tools:context=".activities.MainActivity">
 
     <LinearLayout
@@ -31,27 +32,27 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="24dp"
                 android:gravity="center"
-                tools:text="Running: 4:49 remaining"
-                android:textAppearance="@style/TextAppearance.Material3.TitleLarge" />
+                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                tools:text="Running: 4:49 remaining" />
 
         <TextView
                 android:id="@+id/hint1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="24dp"
                 android:layout_marginEnd="24dp"
+                android:gravity="center"
                 android:text="@string/hint_1" />
 
         <TextView
                 android:id="@+id/hint2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="24dp"
+                android:gravity="center"
                 android:text="@string/hint_2" />
 
         <com.google.android.material.button.MaterialButton
